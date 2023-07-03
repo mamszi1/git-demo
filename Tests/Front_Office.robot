@@ -6,7 +6,7 @@ Resource        ../Resources/CommonWeb.robot
 Test Setup      Begin Web Test
 Test Teardown   End Web Test
 
-#   robot -d C:/development/GitLab/robot-scripts/front-office/Results front-office-1/tests/Front_Office.robot
+#   robot -d results tests/Front_Office.robot
 
 *** Variables ***
 ${BROWSER} =    edge
